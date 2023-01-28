@@ -1,0 +1,123 @@
+.input_container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+  justify-content: space-between;
+  text-align: center;
+  border: 1px solid aqua;
+  border-radius: 8px;
+}
+
+input[type=text] {
+  width: 25%;
+  height: 30px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid aqua;
+  border-radius: 8px;
+  transition: .5s all ease;
+}
+
+input[type=text]:hover {
+  border-bottom: 1px solid orangered;
+}
+
+input[type=text]:focus {
+  border-bottom: 1px solid orangered;
+}
+
+.addBtn {
+  width: 10%;
+  border: 1px solid aqua;
+  border-radius: 10px;
+  font-weight: bolder;
+  transition: .5s all ease;
+}
+
+.addBtn:hover {
+  border: 1px solid orangered;
+}
+
+/* BOOKS CONTAINER STARTS */
+
+.books_container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0px auto;
+  padding: 20px;
+  justify-content: space-between;
+  text-align: center;
+  border: 1px solid aqua;
+  border-radius: 8px;
+}
+
+.book_item {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 10px auto;
+  justify-content: space-between;
+  border: 1px solid green;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.book_item_left {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.book_item_left_top,
+.book_item_left_bottom {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 30px;
+}
+
+.book_item_left_bottom {
+  color: gray;
+  font-weight: normal;
+  justify-content: space-between;
+}
+
+.book_item_right {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+  justify-content: space-around;
+}
+
+.actionBtn {
+  width: 80px;
+  height: 80px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.issue {
+  background-color: purple;
+}
+
+.issue.issued {
+  background-color: green;
+}
+
+.edit {
+  background-color: teal;
+}
+
+.delete {
+  background-color: red;
+}
+
+/* BOOKS CONTAINER ENDS */
